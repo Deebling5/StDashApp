@@ -2,4 +2,4 @@ streamlit
 matplotlib
 mplfinance
 plotly
-git+https://github.com/StreamAlpha/pynse.git
+git+https://github.com/Deebling5/pynse
