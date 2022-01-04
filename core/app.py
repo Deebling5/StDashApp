@@ -22,7 +22,7 @@ else:
     def bhavcopy_display():
 
         with st.sidebar:
-            st.write("Bhavcopy Inputs")
+            st.write("Inputs")
             req_date = st.date_input("Select Date", datetime.date.today())
             segment = st.selectbox("Select Segment", ["Cash", "FnO"])
 
@@ -497,7 +497,7 @@ else:
         st.write(ax.get_figure())
 
     analysis_dict = {
-        "Bhavcopy": bhavcopy_display,
+        "Candle Screener": bhavcopy_display,
         "Stock Delivery Data": stock_deliv_data,
         "High/Low Delivery": high_low_deliv,
         "Stock OI Data": stock_oi_data,
@@ -508,10 +508,7 @@ else:
     }
 
     with st.sidebar:
-        st.markdown(
-            'Buy Me A Coffee :) </br>[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/StreamAlpha)',
-            unsafe_allow_html=True,
-        )
+        
         selected_analysis = st.radio("Select Analysis", list(analysis_dict.keys()))
         st.write("---")
 
