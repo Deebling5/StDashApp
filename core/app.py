@@ -500,11 +500,11 @@ else:
         "Candle Screener": bhavcopy_display,
         "Stock Delivery Data": stock_deliv_data,
         "High/Low Delivery": high_low_deliv,
-        "Stock OI Data": stock_oi_data,
-        "Future Builtup": future_builtup,
-        "Historical Option Chain": historical_option_chain,
-        "Put Call Ratio": put_call_ratio,
-        "Max Pain": max_pain,
+        #"Stock OI Data": stock_oi_data,
+        #"Future Builtup": future_builtup,
+        #"Historical Option Chain": historical_option_chain,
+        #"Put Call Ratio": put_call_ratio,
+        #"Max Pain": max_pain,
     }
 
     with st.sidebar:
